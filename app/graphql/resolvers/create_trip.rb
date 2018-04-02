@@ -1,9 +1,9 @@
 module Resolvers
   class CreateTrip < GraphQL::Function
+    type Types::TripType
+
     argument :name, !types.String
     argument :description, !types.String
-
-    type Types::TripType
 
     def call(_obj, args, _ctx)
       Trip.create!(
