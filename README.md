@@ -1,10 +1,8 @@
-# Project Title
-
-Go Trip ✈️
-
-## Getting Started
+# Go Trip   ✈️
 
 Simple Rails-GrapQL API for the app to share trips.
+
+## Getting Started
 
 ### Prerequisites
 
