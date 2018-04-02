@@ -1,6 +1,6 @@
 # Project Title
 
-Go Trip `:airplane:`
+Go Trip ✈️
 
 ## Getting Started
 
