@@ -1,24 +1,38 @@
-# README
+# Project Title
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Go Trip `:airplane:`
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Simple Rails-GrapQL API for the app to share trips.
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+* Rails
+* Ruby
 
-* Database creation
+## Running the tests
 
-* Database initialization
+```ruby
+bundle exec rspec spec/
+```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Coding style
 
-* Deployment instructions
+Rubocop
 
-* ...
+## Deployment
+
+Going to be on Heroku
+
+## Contributing
+
+Not yet specified
+
+## Authors
+
+* **Janek Kurzydlo** - *Initial work* - [Nasaabg](https://github.com/nasaabg)
+
+
+## Acknowledgments
