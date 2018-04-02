@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 
 gem 'graphql'
+gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.5'
 gem 'sqlite3'
-gem 'puma', '~> 3.7'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
@@ -17,10 +17,10 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'rack-cors'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.7'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'pry'
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem 'rspec-rails', '~> 3.7'
 end
 
 group :development do
@@ -29,11 +29,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   # grapigl UI
+  gem 'coffee-rails'
   gem 'graphiql-rails'
   gem 'sass-rails'
   gem 'uglifier'
-  gem 'coffee-rails'
 
   gem 'meta_request'
 end
-

@@ -1,0 +1,25 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# this does not agree with default vim indent so...
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
