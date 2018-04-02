@@ -10,6 +10,9 @@ gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.5'
 gem 'sqlite3'
 
+# Security update
+gem 'loofah', '~> 2.2.1'
+
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
